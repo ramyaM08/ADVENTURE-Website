@@ -41,19 +41,6 @@ Responsive Styles: Ensures the website is responsive and mobile-friendly.
 Usage
 To use this project, follow these steps:
 
-Clone the repository: git clone <repository_url>
-Navigate to the project directory: cd <project_directory>
-Open the HTML file in a browser: Open index.html in your preferred web browser to view the website.
-
-Contributing
-If you would like to contribute to this project, please follow these steps:
-
-Fork the repository.
-Create a new branch: git checkout -b feature/YourFeature
-Make your changes and commit them: git commit -m 'Add some feature'
-Push to the branch: git push origin feature/YourFeature
-Create a pull request.
-
 Contact
 For any inquiries or feedback, please contact:
 
