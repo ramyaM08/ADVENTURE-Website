@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <!-- === CSS === -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- NavBar -->
+     <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="menu-btn.jpg" alt="" class="menu-btn">
+     </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!-- Events -->
+     <section class="events">
+        <div class="title">
+            <h1>UPCOMING GETAWAYS</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img1.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Embark on an exhilarating trek to Everest Base Camp, where you'll witness breathtaking Himalayan views and immerse in the unique Sherpa culture. This adventure promises stunning landscapes and a profound sense of achievement!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                    <img src="img2.jpg" alt="">
+                    <h4>Walking Holiday</h4>
+                    <p>Join us for an enchanting walking holiday through Kerala's Western Ghats, exploring lush tea plantations, spice gardens, and picturesque trails. Experience serene landscapes and local culture in this biodiversity-rich region!</p>
+                    <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+     </section>
+
+     <section class="explore">
+        <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>Embark on unforgettable journeys across captivating landscapes and cultural gems. Our expertly curated tours promise enriching experiences and lasting memories</p>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+     </section>
+ 
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS AND DESTINATIONS</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, modi. Et cupiditate unde quaerat eligendi quam alias distinctio laborum fugit? Labore ullam laudantium dolore iusto cumque laborum, dicta amet veritatis.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="img3.jpg" alt="">
+                    <img src="img4.jpg" alt="">
+                    <img src="img5.jpg" alt="">
+                    <img src="img6 .jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Trillium Lotus, Kondapur, Telangana | Phone: 7036918070 | Email: ramyamedagam1420@gmail.com</p>
+        <p>Copyright ©️ 2024 Outdoor Adevnture</p>
+    </section>
+    <script>
+        const menuBtn=document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
