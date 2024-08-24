@@ -38,8 +38,6 @@ Tours Styles: Layout and styling for the tours section.
 Footer Styles: Styling for the footer section.
 Responsive Styles: Ensures the website is responsive and mobile-friendly.
 
-Usage
-To use this project, follow these steps:
 
 Contact
 For any inquiries or feedback, please contact:
